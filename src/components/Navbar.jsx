@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import logo from "../assets/logo.png"
+import { MdOutlineWifiCalling3  } from "react-icons/md";
 
 const Navbar = () => {
 
@@ -7,12 +8,11 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="border-b-1 relative z-20 w-full border-b bg-inherit drop-shadow-xl shadow-slate-700 after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full after:bg-transparent  lg:backdrop-blur-sm lg:after:hidden ">
+      <header className=" w-full min-h-[50px] flex justify-between gap-10 items-center absolute z-10 text-white bg-gray-600/30">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
-            aria-label="main navigat   ion"
             className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700"
-            role="navigation"
+
           >
             {/*      <!--  logo --> */}
             <a
@@ -64,7 +64,7 @@ const Navbar = () => {
             >
               <li role="none" className="flex items-stretch text-white">
                 <a
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span>Home</span>
@@ -73,7 +73,7 @@ const Navbar = () => {
               <li role="none" className="flex items-stretch text-white">
                 <a
                   aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 text-emerald-500 transition-colors duration-300 hover:text-emerald-600 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300   focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span>Service</span>
@@ -82,7 +82,7 @@ const Navbar = () => {
               <li role="none" className="flex items-stretch text-white">
                 <a
                   aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span>Project</span>
@@ -91,7 +91,7 @@ const Navbar = () => {
               <li role="none" className="flex items-stretch text-white">
                 <a
                   aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span>Pages</span>
@@ -100,7 +100,7 @@ const Navbar = () => {
               <li role="none" className="flex items-stretch text-white">
                 <a
                   aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span>News</span>
@@ -109,16 +109,16 @@ const Navbar = () => {
               <li role="none" className="flex items-stretch text-white">
                 <a
                   aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex items-center gap-2 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none lg:px-8"
                   href="javascript:void(0)"
                 >
                   <span>Contact</span>
                 </a>
               </li>
               <li role="none" className="flex items-stretch text-white">
+              <MdOutlineWifiCalling3  className="text-[#B98E75] bg-white rounded-full p-2 mr-2 mt-6" size={40}/>
                 <a
-                  aria-haspopup="false"
-                  className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600 focus:outline-none focus-visible:outline-none lg:px-8"
+                  className="flex flex-col-reverse items-center gap-1 py-4 transition-colors duration-300    focus:outline-none focus-visible:outline-none "
                   href="javascript:void(0)"
                 >
                   <span>Call Anytime</span>
