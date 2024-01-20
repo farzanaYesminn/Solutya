@@ -3,7 +3,7 @@ import Line from "../assets/line.png"
 import Line1 from "../assets/line4.png"
 import Line2 from "../assets/line5.png"
 import ClientSay from "../assets/ClientSay.png"
-import Client from "../assets/Client.png"
+import Client from "../assets/client.png"
 
 
 const VIdeoFeedback = () => {
