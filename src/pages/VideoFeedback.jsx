@@ -6,7 +6,7 @@ import ClientSay from "../assets/ClientSay.png"
 import Client from "../assets/Client.png"
 
 
-const VIdeoFeedback = () => {
+const VideoFeedback = () => {
   return (
     <div>
        <div className='px-20  '>
@@ -119,4 +119,4 @@ const VIdeoFeedback = () => {
   )
 }
 
-export default VIdeoFeedback
+export default VideoFeedback

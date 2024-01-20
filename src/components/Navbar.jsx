@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import logo from "../assets/logo.png"
 import { MdOutlineWifiCalling3  } from "react-icons/md";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
 
@@ -69,6 +70,16 @@ const Navbar = () => {
                 >
                   <span>Home</span>
                 </a>
+              </li>
+              <li role="none" className="flex items-stretch text-white">
+                <Link to="/signup" className="flex items-center gap-2 py-4 transition-colors duration-300 focus:outline-none focus-visible:outline-none lg:px-8">
+                  <span>Sign Up</span>
+                </Link>
+              </li>
+              <li role="none" className="flex items-stretch text-white">
+                <Link to="/login" className="flex items-center gap-2 py-4 transition-colors duration-300 focus:outline-none focus-visible:outline-none lg:px-8">
+                  <span>Login</span>
+                </Link>
               </li>
               <li role="none" className="flex items-stretch text-white">
                 <a
