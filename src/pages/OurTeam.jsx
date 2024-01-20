@@ -1,10 +1,10 @@
 import React from 'react'
 import Line from "../assets/line.png"
 import Line1 from "../assets/line2.png"
-import Team1 from "../assets/team1.png"
-import Team2 from "../assets/team2.png"
-import Team3 from "../assets/team3.png"
-import Team4 from "../assets/team4.png"
+import Team1 from "../assets/Team1.png"
+import Team2 from "../assets/Team2.png"
+import Team3 from "../assets/Team3.png"
+import Team4 from "../assets/Team4.png"
 
 const OurTeam = () => {
 
