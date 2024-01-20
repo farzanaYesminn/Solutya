@@ -1,6 +1,8 @@
 import React, { useEffect } from "react"
 import Glide from "@glidejs/glide"
 import Line from "../assets/line.png"
+import Line1 from "../assets/line4.png"
+import Line2 from "../assets/line5.png"
 import Work1 from "../assets/ourWork1.png"
 
 const OurWork = () => {
@@ -35,7 +37,7 @@ const OurWork = () => {
   return (
     <div>
         <div className='px-20  '> 
-          
+        <img src={Line2} />
           <div className='flex gap-4 py-5 ' >
           <img src={Line} className='w-14 h-4 pt-2' />
               <p className='font-saira text-lg'>
@@ -54,6 +56,7 @@ const OurWork = () => {
         <div className="overflow-hidden" data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
             <li>
+              
               <img
                 src={Work1}
                 className="m-auto max-h-full w-full max-w-full"

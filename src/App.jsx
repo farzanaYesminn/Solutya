@@ -7,6 +7,7 @@ import OurService from "./pages/OurService"
 import OurTeam from "./pages/OurTeam"
 import OurWork from "./pages/OurWork"
 import VIdeoFeedback from "./pages/VIdeoFeedback"
+import WeWork from "./pages/WeWork"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <OurService/>
       <OurCompany/>
       <OurProject/>
+      <WeWork/>
       <OurTeam/>
       <OurWork/>
       <VIdeoFeedback/>
